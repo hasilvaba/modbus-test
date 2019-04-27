@@ -11,17 +11,17 @@
       "noEmit": true,
       "baseUrl": ".",
       "paths": {
-        "modbus-test": [
-          "."
-        ]
+        "modbus-test": ["."],
+        "dgram": ["."],
+        "fs": ["."],
+        "crypto": ["."],
+        "http": ["."],
+        "zlib":["."]
       },
       "forceConsistentCasingInFileNames": true
     },
     "files": [
       "index.d.ts",
-      "test.ts",
-	   "../node_modules/@types/node/index.d.ts",
-      "../node_modules/@types/node/fs.d.ts",
-      "../node_modules/@types/node/dgram.d.ts"
+      "test.ts"
     ]
   }

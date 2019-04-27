@@ -1,5 +1,6 @@
 import * as modbus from "modbus-test";
 
+
 // $ExpectType void
 modbus.tcp.connect(502, "134.2.56.231", { debug: "automaton-2454" }, (
     err, // $ExpectType Error | null
