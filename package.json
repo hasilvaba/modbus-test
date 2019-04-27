@@ -1,0 +1,42 @@
+{
+  "name": "modbus-test",
+  "version": "1.0.0",
+  "author": "Hugo Silva <hasilva.ba@gmail.com>",
+  "description": "Modbus mobile",
+  "main": "lib/modbus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasilvaba/modbus-test"
+  },
+  "bugs": {
+    "url": "https://github.com/hasilvaba/modbus-test/issues"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "scripts": {
+    "test": "node test/run",
+    "dtslint": "dtslint types",
+    "start": "node index"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "^4.16.4",
+    "modbus-pdu": "^1.13.0",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.4",
+    "dtslint": "^0.6.2",
+    "mocha": "^6.1.3",
+    "nodemon": "^1.18.11",
+    "typescript": "^3.4.3"
+  }
+}
